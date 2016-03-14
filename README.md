@@ -1,9 +1,15 @@
-[![Build Status](https://travis-ci.org/StrongeLeeroy/number-diff.svg?branch=master)](https://travis-ci.org/StrongeLeeroy/number-diff)
+[![Travis](https://img.shields.io/travis/StrongeLeeroy/number-diff.svg?style=flat-square)](https://travis-ci.org/StrongeLeeroy/number-diff)
+[![SemVer](http://img.shields.io/:semver-1.0.0-brightgreen.svg?style=flat-square)](http://semver.org)
 ## number-diff
 A simple and small **number difference** library.
+NumberDiff takes in a number and a positive or negative change. It will output an **array containing the result**, the first element is the untouched part, the section that has not changed. The second is the difference.
 
+* [Why is this useful?](#why-is-this-useful?)
 * [Getting started](#getting-started)
 * [Examples](#examples)
+
+### Why is this useful?
+WIP
 
 ### Getting started
 WIP

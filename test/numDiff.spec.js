@@ -117,8 +117,4 @@ describe('deep numDiff', function() {
         expect(numDiff(1800.74, -1805.74, true)).to.deep.equal(['180', {c: '0'}, '.74']);
         expect(numDiff(-1800.74, -1805.74, true)).to.deep.equal(['-180', {c: '0'}, '.74']);
     });
-
-    it('should display dots as difference when one of the arguments has no decimals', function() {
-        expect(numDiff(80.56, 83, true)).to.deep.equal(['8', {c: '0.56'}]);
-    });
 });

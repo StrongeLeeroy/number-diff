@@ -4,13 +4,9 @@
 A simple and small **number difference** library.
 NumberDiff takes in a number and a positive or negative change. It will output an **array containing the result**, the first element is the untouched part, the section that has not changed. The second is the difference.
 
-* [Why is this useful?](#why-is-this-useful?)
 * [Getting started](#getting-started)
 * [API](#api)
 * [Examples](#examples)
-
-### Why is this useful?
-WIP
 
 ### Getting started
 WIP

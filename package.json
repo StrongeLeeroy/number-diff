@@ -2,16 +2,26 @@
   "name": "number-diff",
   "version": "1.0.0",
   "description": "A very simple (and small!) number diff library.",
-  "main": "index.js",
+  "homepage": "https://github.com/StrongeLeeroy/number-diff",
+  "bugs": "https://github.com/StrongeLeeroy/number-diff/issues",
+  "main": "src/numberDiff.js",
+  "repository" : {
+    "type": "git",
+    "url": "https://github.com/StrongeLeeroy/number-diff.git"
+  },
+  "engines": {
+    "node": ">=0.10"
+  },
   "scripts": {
-    "test": "mocha test/test.js",
+    "test": "mocha test",
     "test-with-speed": "mocha"
   },
   "keywords": [
     "diff",
-    "number"
+    "number",
+    "lightweight"
   ],
-  "author": "Gorka Hernandez <info@gorkahernandez.com>",
+  "author": "Gorka Hernandez <info@gorkahernandez.com> (https://www.gorkahernandez.com/)",
   "license": "MIT",
   "devDependencies": {
     "chai": "^3.5.0",

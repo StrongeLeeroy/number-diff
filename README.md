@@ -25,10 +25,10 @@ Shallow diff:
     
 Deep diff:
 
-    numDiff(156.55, 153.56, false); // ['15', {c: '6'}, '.5', {c: '6'}]
+    numDiff(156.55, 153.56, true); // ['15', {c: '6'}, '.5', {c: '6'}]
 
 #### Change difference
-Takes in three parameters, *value*: number, *change*: number and *precision*: number, the last being optional (it will inferred). Value and change can be positive or negaative:
+Takes in three parameters, *value*: number, *change*: number and *precision*: number, the last being optional (it will inferred). Value and change can be positive or negative:
 
     changeDiff(value, change [, precision]);
 
